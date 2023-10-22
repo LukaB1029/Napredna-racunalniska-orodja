@@ -21,7 +21,7 @@ function graf
     tocke_lok = tocke_na_loku(kot1, radij1);
     plot(tocke_lok(1, :), tocke_lok(2, :), 'k', 'LineWidth', 2); 
 
-xlabel('x','FontSize',16)
+    xlabel('x','FontSize',16)
     ylabel('y','FontSize',16)
     title({'Monte Carlo - Približna vrednost \pi'},'FontSize',16);
     legend('točke v krogu','točke iz kroga')
